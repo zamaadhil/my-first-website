@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="images\honda_logo_header.png">
+    <title>HONDA BIGWING</title>
+    <style>
+        
+       .header a {
+          float: left;
+          color: white;
+          text-align: center;
+          padding: 3%;
+          text-decoration: none;
+          font-size: 18px;
+          line-height: 5px;
+          border-radius: 4px;
+          }
+
+      
+
+        .header a:hover {
+          color:red;
+          
+          }
+
+
+       .header a.active {
+         background-image: url('images/bg5.gif');
+         background-size: cover;
+         color: white;
+         }
+
+       .header-center {
+           float: center;
+           padding-left: 25%;
+         }
+        h2{
+            padding-top: 15%;
+         }    
+
+
+
+    </style>
+    
+  </head>
+ <body style="background-color: black;background-image: url('images/BIKEBG.gif');background-size: cover;">
+    
+      <div class="header">
+            <a href="index.html" style="padding-top: 1%;" class="logo"><img height="75" width="100" src="images/honda.png"></a>
+         <div class="header-center">
+              <a href="index.html">Home</a>
+              <a  href="ourstory.html">Our Story</a>
+              <a href="motorcycles.html">Motorcycles</a>
+              <a  href="gallery.html">Gallery</a>
+              <a class="active" href="testdrive.html">Book a Testdrive</a>
+              <a href="https://www.facebook.com/HondaBigWingIndia"> <img  height="30" width="30" src="images/social_fb-w.png" > </a>
+              <a href="https://www.instagram.com/bigwingindia/"> <img  height="30" width="30" src="images/social_insta-w.png" > </a>
+              <a href="https://x.com/BigWingIndia?mx=2"> <img  height="30" width="30" src="images/twitter_new_logo.png" > </a>
+          </div>
+      </div><br><br><br>
+    
+    
+     <CENTER>
+        
+        <h2 style="color:white"><img src="images/rideTest.png" height="50" width="50"> <br>TO BOOK A TEST DRIVE</h2></CENTER>
+        
+     <CENTER>
+
+     <form style="color:white" method="post" action="testdrivebackend.py">
+        
+           <input type="text"  name="Name" placeholder="NAME" ><br><br>
+           <input type="email"  name="email" placeholder="Email"><br><br>
+           <input type="number"  name="number" placeholder="Mobile Number"><br>
+           <input type="checkbox" >Same Number For Whatsapp<br><br>
+           <input type="text"  name="city" placeholder="City"><br><br>
+         
+           <select name="bike">
+             <OPTION HIDDEN> ----Choose Your Bike----</option>
+             <option>H'ness</option>
+             <option>Rs</option>
+             <option>CB300F</option>
+             <option>CB300R</option>
+           </select><br><br>
+           
+           <select name="showroom">
+             <OPTION HIDDEN> ---Nearest Showroom---</option>
+             <option>Erode</option>
+             <option>Coimbatore</option>
+             <option>Chennai</option>
+             <option>Salem</option>
+             <option>Tirupur</option>
+          </select><br><br>
+          I'm above 18 Years Old:<input style="color:white" type="radio" name="age" value="yes">Yes
+            <input style="color:aliceblue" type="radio" name="age" value="NO">No
+          <br><br>
+           
+         <input  type="Submit" value="Submit">   
+        </form> 
+        </CENTER>
+      
+       <hr>
+        <center>
+          <a href="index.html"><img src="images/honda_logo_footer.png" height="50" width="50%"></a>  <br>  <br>      
+           <a href="https://www.facebook.com/HondaBigWingIndia" target="_blank"> <img  height="30" width="30" src="images/social_fb-w.png" > </a>
+           <a href="https://www.instagram.com/bigwingindia/" target="_blank"> <img  height="30" width="30" src="images/social_insta-w.png" > </a>
+           <a href="https://x.com/BigWingIndia?mx=2" target="_blank"> <img  height="30" width="30" src="images/twitter_new_logo.png" > </a>
+       </center>
+       
+  </body>
+ </html>
